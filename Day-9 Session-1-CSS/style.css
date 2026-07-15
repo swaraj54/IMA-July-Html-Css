@@ -1,0 +1,23 @@
+h2 {
+  color: purple;
+}
+
+.title {
+  color: brown;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.font-44 {
+  font-size: 44px;
+}
+
+#my-id {
+  color: blue;
+}
+
+#your-id {
+  color: red;
+}
