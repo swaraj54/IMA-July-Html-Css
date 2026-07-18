@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .parentCnt {
+        border: 2px solid red;
+        height: 2000px;
+        position: relative;
+      }
+      .child {
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 54px;
+      }
+      .bg-blue {
+        background-color: blue;
+        color: white;
+        position: absolute;
+      }
+      .bg-yellow {
+        background-color: yellow;
+        color: black;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        /* position: absolute;
+        top: 50px;
+        right: 50px; */
+        /* position: sticky;
+        top: 0px;
+        left: 0px; */
+      }
+      .textCnt {
+        border: 2px solid red;
+        width: 100%;
+        height: 100px;
+        overflow: visible;
+        overflow: hidden;
+        overflow: scroll;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentCnt">
+      <label class="child bg-blue">1</label>
+      <label class="child bg-yellow" style="z-index: 20">2</label>
+      <label class="child bg-blue" style="z-index: 10">3</label>
+    </div>
+
+    <div class="textCnt">
+      Heello everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone. Heello
+      everyone. Heello everyone. Heello everyone. Heello everyone.
+    </div>
+  </body>
+</html>
